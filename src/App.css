@@ -1,0 +1,58 @@
+*{
+  margin: 0px;
+  border: 0px;
+}
+.header {
+  background-color: darkblue;
+  color: white;
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Grenze Gotisch', cursive;
+}
+.sigin-in , .sigin-up {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 25rem;
+  border: 1px solid cadetblue;
+  box-shadow: 3px 3px darkblue;
+
+  text-align: center;
+  padding: 3rem;
+}
+input {
+  border: 1px solid;
+  padding: .5rem;
+  border-radius: 5px;
+  margin: .5rem;
+}
+button {
+  width: 8rem;
+  padding: 0.5rem;
+  margin: auto;
+  background-color: darkblue;
+  border-radius: 6px;
+  color: white;
+  font-weight: 800;
+  box-shadow: 2px 1px black;
+}
+.header-title {
+  flex: 8 1;
+  font-size: 1.5rem;
+}
+.header-sub-tab-title {
+  display: flex;
+  width: 7rem;
+}
+.header-sub-tab:hover {
+  background-color: #070707;
+  padding: .5rem;
+}
+.header-sub-tab {
+  text-align: center;
+  text-decoration: none;
+  font-feature-settings: "pcap";
+  font-variant: petite-caps;
+  margin-left: .5rem;
+}
