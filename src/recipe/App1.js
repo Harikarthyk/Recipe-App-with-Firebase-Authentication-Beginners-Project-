@@ -13,8 +13,8 @@ const App1 = () => {
     const[ recipe , setRecipe ] = useState([]) ;
     // const[ ob , setOb ] = new
     const[ item , setItem ] = useState("") ;
-    const API_KEY = "091ab0ccc090991bd15e4cfc36d061c7" ;
-    const API_ID = "6de69794" ;
+    const API_KEY = "YOUR_API_KEY" ;
+    const API_ID = "YOUR_API_ID" ;
     const fetchDetails = async () => {
         const response = await fetch( `https://api.edamam.com/search?q=${item}&app_id=${API_ID}&app_key=${API_KEY}` )
         const data = await response.json();
